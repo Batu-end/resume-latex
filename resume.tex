@@ -1,0 +1,161 @@
+%-------------------------
+% Resume in LaTeX
+% Based on Jake's Resume template
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%===========================================
+\begin{document}
+
+%----------HEADER--------------------------
+\begin{center}
+    {\Huge \scshape Ender Batu Demirta\c{s}} \\ \vspace{4pt}
+    \small
+    (307) 301-7092 $|$
+    \href{mailto:ba2demirtas@gmail.com}{\underline{ba2demirtas@gmail.com}} $|$
+    \href{https://linkedin.com/in/batu-demirtas}{\underline{linkedin.com/in/batu-demirtas}} $|$
+    \href{https://github.com/Batu-end}{\underline{github.com/Batu-end}} $|$
+    Fullerton, CA
+\end{center}
+
+%-----------EDUCATION----------------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {California State University, Fullerton}{Fullerton, CA}
+    {Bachelor of Science in Computer Science}{Expected May 2026}
+    \resumeItemListStart
+      \resumeItem{\textbf{Relevant Coursework:} Data Structures, Algorithms, Software Engineering, Operating Systems,
+        Object-Oriented Programming, Back-End Development, Machine Learning}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE---------------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Association for Computing Machinery (ACM) -- CSUF}{Fullerton, CA}
+    {Artificial Intelligence Board Member}{January 2025 -- Present}
+    \resumeItemListStart
+      \resumeItem{Spearheaded industry outreach program, bringing engineers from companies including AWS to deliver expert panels, attracting \textbf{20+ students per session} on topics spanning AI, back-end development, and data engineering.}
+      \resumeItem{Overhauled presentation and workshop formats, increasing overall event attendance by \textbf{30\%+}.}
+      \resumeItem{Redesigned engagement strategy, growing interactive activity participation from near-zero to \textbf{25+ students} per session.}
+      \resumeItem{Structured curriculum to serve both beginners and experienced members, creating a tiered AI/ML learning environment.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Data Science \& Machine Learning Club (DSML) -- CSUF}{Fullerton, CA}
+    {Vice President}{January 2025 -- Present}
+    \resumeItemListStart
+      \resumeItem{Lead weekly presentations bridging theoretical ML/data science concepts with real-world applications and live tool demos.}
+      \resumeItem{Organized hybrid (in-person + online) sessions to maximize accessibility and sustain consistent attendance.}
+      \resumeItem{Developed case study--driven curriculum grounded in realistic datasets and industry-relevant ML challenges.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Ilam Library}{Fullerton, CA}
+    {Library Technology Specialist}{March 2021 -- February 2022}
+    \resumeItemListStart
+      \resumeItem{Provided Tier-1 technical support to students and faculty at a high-traffic help desk, resolving hardware and software issues with minimal disruption.}
+      \resumeItem{Managed and maintained lab computer stations and peripheral equipment across the facility.}
+      \resumeItem{Conducted regular inventory audits to ensure full equipment availability and accountability.}
+      \resumeItem{Communicated technical solutions and library policies clearly to a diverse user base, consistently delivering a positive patron experience.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------------
+% Add projects here when available, e.g.:
+% \section{Projects}
+% \resumeSubHeadingListStart
+%   \resumeProjectHeading
+%     {\textbf{Project Name} $|$ \emph{Python, AWS, ...}}{Month Year}
+%     \resumeItemListStart
+%       \resumeItem{Description}
+%     \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+%-----------SKILLS-------------------------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages:}{ Python, C++, SQL} \\
+    \textbf{Cloud:}{ AWS (EC2, S3, IAM, Bedrock, KMS, EBS)} \\
+    \textbf{Tools \& Platforms:}{ Git, GitHub, Jira, Confluence, Slack} \\
+    \textbf{Concepts:}{ Machine Learning, Data Structures \& Algorithms, REST APIs, OOP}
+  }}
+\end{itemize}
+
+%-------------------------------------------
+\end{document}
