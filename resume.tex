@@ -96,54 +96,7 @@
     {Bachelor of Science in Computer Science}{May 2026}
     \resumeItemListStart
       \resumeItem{\textbf{Relevant Coursework:} Data Structures, Software Engineering, Operating Systems, OOP, Back-end Development, Machine Learning}
-    \resumeItemListEnd
-\resumeSubHeadingListEnd
-
-%-----------EXPERIENCE---------------------
-\section{Experience}
-\resumeSubHeadingListStart
-
-  \resumeSubheading
-    {Catalyst Insight Studio -- General Chemistry II}{Fullerton, CA}
-    {Co-Developer}{May 2026 -- July 2026}
-    \resumeItemListStart
-      \resumeItem{Enabled General Chemistry II students and instructors to explore lab results in the browser with no install, by co-building a \textbf{Streamlit} app and owning its \textbf{pandas} data pipeline and \textbf{scikit-learn} models.}
-      \resumeItem{Turned messy student survey exports into analysis-ready data, by building the normalization, cleaning, and validation pipeline.}
-      \resumeItem{Kept the app working as the lab's data-collection forms evolved, by adding automated schema-mismatch validation and a \textbf{New Semester} tab for merging raw Excel exports.}
-      \resumeItem{Eased handoff to the next student team, by breaking up a monolithic app into separate UI and data layers and writing \textbf{54 unit tests}.}
-    \resumeItemListEnd
-
-  \resumeSubheading
-    {Association for Computing Machinery (ACM) -- CSUF}{Fullerton, CA}
-    {Artificial Intelligence Board Member}{January 2025 -- May 2026}
-    \resumeItemListStart
-      \resumeItem{Led an overhaul of presentation and workshop formats, increasing attendance by \textbf{30\%+}.}
-      \resumeItem{Revamped our engagement strategies, growing activity participation from negligible to \textbf{25+ students} in interactive activities.}
-      \resumeItem{Contributed to a more dynamic and structured AI and ML learning environment, which is both accessible to beginners while also providing depth for experienced members and learners.}
-    \resumeItemListEnd
-
-  \resumeSubheading
-    {Data Science \& Machine Learning Club (DSML) -- CSUF}{Fullerton, CA}
-    {Vice President}{January 2025 -- May 2026}
-    \resumeItemListStart
-      \resumeItem{Lead weekly presentations on core data science and machine learning concepts, combining theory with real-world applications.}
-      \resumeItem{Implement live tool demonstrations to showcase practical application of core data science concepts.}
-      \resumeItem{Host hybrid sessions to maximize accessibility, maintaining high attendance across both online and in-person audiences.}
-      \resumeItem{Design case study-driven curricula using realistic datasets to mirror production machine learning challenges.}
-    \resumeItemListEnd
-
-\resumeSubHeadingListEnd
-
-%-----------PROJECTS-----------------------
-\section{Projects}
-\resumeSubHeadingListStart
-  \resumeProjectHeading
-    {\textbf{NL2SQL Analytics Platform} $|$ \emph{Python, FastAPI, Strands Agents, AWS}}{September 2025 -- November 2025}
-    \resumeItemListStart
-      \resumeItem{Developed an agentic AI chatbot that democratizes data access, enabling non-technical users to query structured PostgreSQL databases using natural language.}
-      \resumeItem{Orchestrated AI reasoning and dynamic tool execution via \textbf{Strands Agents} and \textbf{Amazon Bedrock} (Claude 3.5), translating plain English into precise, case-insensitive SQL queries while mitigating hallucinations.}
-      \resumeItem{Engineered a robust REST API using \textbf{FastAPI} and \textbf{Pydantic}, securely connecting to AWS RDS by dynamically retrieving credentials from \textbf{AWS Secrets Manager} to ensure security.}
-      \resumeItem{Deployed a serverless, containerized backend to \textbf{AWS App Runner} leveraging the Amazon Bedrock AgentCore runtime, establishing an automated CI/CD deployment pipeline directly from GitHub.}
+      \resumeItem{\textbf{Certification:} AWS Certified Generative AI Developer -- Professional (AIP-C01), exam scheduled November 2026}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -152,22 +105,67 @@
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small{\item{
     \textbf{Programming Languages:}{ Python, C++, Swift, SQL} \\
-    \textbf{Cloud:}{ AWS (EC2, S3, IAM, Bedrock, KMS, EBS)} \\
-    \textbf{Frameworks \& Libraries:}{ FastAPI, SwiftUI, SwiftData, LangGraph} \\
+    \textbf{Generative AI:}{ Amazon Bedrock (Agents, Knowledge Bases, Guardrails), Strands Agents, LangGraph, RAG, Vector Search, Prompt Engineering, LLM Evaluation} \\
+    \textbf{Cloud:}{ AWS (Bedrock, Lambda, API Gateway, Step Functions, S3, RDS, IAM, KMS, Secrets Manager, CloudWatch, App Runner, EC2)} \\
+    \textbf{Frameworks \& Libraries:}{ FastAPI, Pydantic, Streamlit, pandas, scikit-learn, SwiftUI, SwiftData} \\
     \textbf{Tools \& Collaboration:}{ Git, GitHub Kanban, Jira, Confluence, Slack} \\
-    \textbf{Technical Concepts:}{ Algorithms, Machine Learning, RAG, Agentic AI, APIs}
+    \textbf{Technical Concepts:}{ Algorithms, Machine Learning, REST APIs, CI/CD, Data Pipelines, Unit Testing}
   }}
 \end{itemize}
 
-%-----------LEADERSHIP---------------------
-\section{Leadership \& Social Influence}
+%-----------PROJECTS-----------------------
+\section{Projects}
 \resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{NL2SQL Chatbot} $|$ \emph{Python, FastAPI, Strands Agents, Amazon Bedrock, AWS}}{September 2025 -- November 2025}
+    \resumeItemListStart
+      \resumeItem{Built a chatbot that lets non-technical users query a \textbf{PostgreSQL} database in plain English, using a \textbf{Strands} agent on \textbf{Amazon Bedrock} (Claude 3.5 Haiku) that calls custom tools to generate and run SQL.}
+      \resumeItem{Served the agent through a \textbf{FastAPI} backend and a lightweight web UI, keeping database credentials in \textbf{AWS Secrets Manager} instead of code.}
+      \resumeItem{Containerized and deployed the service to \textbf{AWS App Runner}, backed by a \textbf{PostgreSQL} database on \textbf{AWS RDS}.}
+    \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{Memoria} $|$ \emph{SwiftUI, SwiftData, Swift Charts, macOS + iOS} $|$ Solo Developer}{January 2026 -- Present}
+    \resumeItemListStart
+      \resumeItem{Shipped \textbf{4 releases} of an offline-first trading journal as sole engineer, with a custom \textbf{P\&L} accounting engine.}
+    \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{Catalyst Insight Studio} $|$ \emph{Python, Streamlit, pandas, scikit-learn} $|$ Co-Developer}{May 2026 -- July 2026}
+    \resumeItemListStart
+      \resumeItem{Enabled General Chemistry II students and instructors to explore lab results in the browser with no install, by co-building a \textbf{Streamlit} app and owning its \textbf{pandas} data pipeline and \textbf{scikit-learn} models.}
+      \resumeItem{Turned messy student survey exports into analysis-ready data, by building the normalization, cleaning, and validation pipeline.}
+      \resumeItem{Kept the app working as the lab's data-collection forms evolved, by adding automated schema-mismatch validation and a \textbf{New Semester} tab for merging raw Excel exports.}
+      \resumeItem{Eased handoff to the next student team, by breaking up a monolithic app into separate UI and data layers and writing \textbf{54 unit tests}.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------LEADERSHIP---------------------
+\section{Leadership}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Data Science \& Machine Learning Club (DSML) -- CSUF}{Fullerton, CA}
+    {Vice President}{January 2025 -- May 2026}
+    \resumeItemListStart
+      \resumeItem{Led weekly presentations on core data science and machine learning concepts, combining theory with real-world applications.}
+      \resumeItem{Ran live tool demonstrations to showcase practical application of core data science concepts.}
+      \resumeItem{Hosted hybrid sessions to maximize accessibility, maintaining high attendance across both online and in-person audiences.}
+      \resumeItem{Designed case study-driven curricula using realistic datasets to mirror production machine learning challenges.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Association for Computing Machinery (ACM) -- CSUF}{Fullerton, CA}
+    {Artificial Intelligence Board Member}{January 2025 -- May 2026}
+    \resumeItemListStart
+      \resumeItem{Led an overhaul of presentation and workshop formats, increasing attendance by \textbf{30\%+}.}
+      \resumeItem{Revamped our engagement strategies, growing activity participation from negligible to \textbf{25+ students} in interactive activities.}
+      \resumeItem{Built a more structured AI and ML learning environment, accessible to beginners while still offering depth for experienced members.}
+    \resumeItemListEnd
+
   \resumeSubheading
     {Technical Event Production \& Outreach}{Fullerton, CA}
     {Bridging the Gap Between Students and Industry}{January 2025 -- December 2025}
     \resumeItemListStart
       \resumeItem{Founded and coordinated a guest speaker series, hosting engineering leaders from companies including AWS to deliver panels on production architectures and data engineering.}
-      \resumeItem{Attracted over \textbf{20+ students per session} by promoting interactive discussions on modern cloud and back-end practices.}
+      \resumeItem{Attracted \textbf{20+ students per session} by promoting interactive discussions on modern cloud and back-end practices.}
       \resumeItem{Facilitated industry networking opportunities to prepare student members for technical interviews and post-grad career pathways.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
